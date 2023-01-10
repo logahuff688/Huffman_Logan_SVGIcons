@@ -16,7 +16,7 @@ body {
   margin-right: 85%;
 }
 
-.icons {
+#icons {
   cursor: pointer;
   width: 200px;
   transition: 0.5s;
@@ -24,11 +24,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  filter: invert(50%);
 }
 
-.icons:hover {
+#icons:hover {
   width: 250px;
   transition: 0.5s;
+  filter: invert(0%);
 }
 
 .title {
