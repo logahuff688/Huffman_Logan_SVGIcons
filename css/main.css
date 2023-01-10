@@ -1,13 +1,40 @@
 body {
-
-    background-color: rgb(197, 179, 179);
-    
+  background-color: gray;
 }
 
+.header {
+  background-color: black;
+  width: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: white;
+}
 
 .footer {
-box-shadow: 2px 2px 1px;
-margin-right: 85%;
+  box-shadow: 2px 2px 1px;
+  margin-right: 85%;
+}
 
+.icons {
+  cursor: pointer;
+  width: 200px;
+  transition: 0.5s;
+  box-shadow: 1px 1px 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
+.icons:hover {
+  width: 250px;
+  transition: 0.5s;
+}
+
+.title {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: xx-large;
 }
