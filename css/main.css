@@ -87,12 +87,16 @@ body {
 }
 
 
-#icon5:hover {
-  width: 250px;
+#icon5 {
+  cursor: pointer;
+  width: 200px;
   transition: 0.5s;
-  filter: invert(0%);
+  box-shadow: 1px 1px 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  filter: invert(48%);
 }
-
 
 #icon5:hover {
   width: 250px;
