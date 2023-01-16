@@ -1,15 +1,10 @@
-document.addEventListener("click", (event) => {
-  const element = event.target;
+console.log('Javascript is running!');
 
-  const elementAlt = element.getAttribute("alt");
-  const elementId = element.getAttribute("id");
+let icons = document.querySelector("#Icons") // vectorGraphic variable
 
-  event.target.classList.toggle("selected");
+function logID() {
+    console.log(this.id);
+}
 
-  console.log(
-    `You clicked on the element with ID: ${elementId},\n that is a ${elementAlt}.`
-  );
-  console.log(
-    `the class, "${event.target.classList}" has been added to ${elementId}`
-  );
-});
+icons.addEventListener('click',logID)
+icons.addEventListener('click',logID)
