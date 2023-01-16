@@ -16,7 +16,7 @@ body {
   margin-right: 85%;
 }
 
-#icons {
+#icon1 {
   cursor: pointer;
   width: 200px;
   transition: 0.5s;
@@ -28,7 +28,169 @@ body {
 }
 
 
-#icons:hover {
+#icon1:hover {
+  width: 250px;
+  transition: 0.5s;
+  filter: invert(0%);
+}
+
+#icon2 {
+  cursor: pointer;
+  width: 200px;
+  transition: 0.5s;
+  box-shadow: 1px 1px 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  filter: invert(48%);
+}
+
+
+#icon2:hover {
+  width: 250px;
+  transition: 0.5s;
+  filter: invert(0%);
+}
+
+#icon4 {
+  cursor: pointer;
+  width: 200px;
+  transition: 0.5s;
+  box-shadow: 1px 1px 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  filter: invert(48%);
+}
+
+#icon4 {
+  cursor: pointer;
+  width: 200px;
+  transition: 0.5s;
+  box-shadow: 1px 1px 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  filter: invert(48%);
+}
+
+#icon1 {
+  cursor: pointer;
+  width: 200px;
+  transition: 0.5s;
+  box-shadow: 1px 1px 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  filter: invert(48%);
+}
+
+
+#icon1:hover {
+  width: 250px;
+  transition: 0.5s;
+  filter: invert(0%);
+}
+
+
+#icon5:hover {
+  width: 250px;
+  transition: 0.5s;
+  filter: invert(0%);
+}
+
+
+#icon5:hover {
+  width: 250px;
+  transition: 0.5s;
+  filter: invert(0%);
+}
+
+#icon6 {
+  cursor: pointer;
+  width: 200px;
+  transition: 0.5s;
+  box-shadow: 1px 1px 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  filter: invert(48%);
+}
+
+
+#icon6:hover {
+  width: 250px;
+  transition: 0.5s;
+  filter: invert(0%);
+}
+
+#icon7 {
+  cursor: pointer;
+  width: 200px;
+  transition: 0.5s;
+  box-shadow: 1px 1px 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  filter: invert(48%);
+}
+
+
+#icon7:hover {
+  width: 250px;
+  transition: 0.5s;
+  filter: invert(0%);
+}
+
+#icon8 {
+  cursor: pointer;
+  width: 200px;
+  transition: 0.5s;
+  box-shadow: 1px 1px 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  filter: invert(48%);
+}
+
+
+#icon8:hover {
+  width: 250px;
+  transition: 0.5s;
+  filter: invert(0%);
+}
+
+#icon9 {
+  cursor: pointer;
+  width: 200px;
+  transition: 0.5s;
+  box-shadow: 1px 1px 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  filter: invert(48%);
+}
+
+
+#icon9:hover {
+  width: 250px;
+  transition: 0.5s;
+  filter: invert(0%);
+}
+
+#icon10 {
+  cursor: pointer;
+  width: 200px;
+  transition: 0.5s;
+  box-shadow: 1px 1px 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  filter: invert(48%);
+}
+
+
+#icon10:hover {
   width: 250px;
   transition: 0.5s;
   filter: invert(0%);
