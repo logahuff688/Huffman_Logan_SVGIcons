@@ -1,6 +1,6 @@
 console.log('Javascript is running!');
 
-let icons = document.querySelector("#Icons") // vectorGraphic variable
+let icons = document.querySelector("#icons") // vectorGraphic variable
 
 function logID() {
     console.log(this.id);
