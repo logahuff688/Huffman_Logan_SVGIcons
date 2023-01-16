@@ -52,7 +52,7 @@ body {
   filter: invert(0%);
 }
 
-#icon4 {
+#icon3 {
   cursor: pointer;
   width: 200px;
   transition: 0.5s;
@@ -61,6 +61,11 @@ body {
   margin-right: auto;
   display: flex;
   filter: invert(48%);
+}
+#icon3:hover {
+  width: 250px;
+  transition: 0.5s;
+  filter: invert(0%);
 }
 
 #icon4 {
@@ -74,19 +79,8 @@ body {
   filter: invert(48%);
 }
 
-#icon1 {
-  cursor: pointer;
-  width: 200px;
-  transition: 0.5s;
-  box-shadow: 1px 1px 1px black;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  filter: invert(48%);
-}
 
-
-#icon1:hover {
+#icon4:hover {
   width: 250px;
   transition: 0.5s;
   filter: invert(0%);
