@@ -12,4 +12,4 @@ console.log(this.alt);
 }
 
 icons.addEventListener('click',logID)
-icons.addEventListener('click',logALT
+icons.addEventListener('click',logALT)
