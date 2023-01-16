@@ -23,9 +23,10 @@ body {
   box-shadow: 1px 1px 1px black;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-  filter: invert(50%);
+  display: flex;
+  filter: invert(45%);
 }
+
 
 #icons:hover {
   width: 250px;
@@ -38,5 +39,34 @@ body {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  font-size: xx-large;
+  font-size: xxx-large;
 }
+
+.line{
+  width: 3px;
+  height: 250%;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#container h1 {
+  grid-column: 1 / 2;
+  
+}
+
+#container img {
+  grid-column: 2 / 3;
+}
+
+#container .line {
+  grid-column: 2 / 3;
+  border-left: 1px solid black; }
